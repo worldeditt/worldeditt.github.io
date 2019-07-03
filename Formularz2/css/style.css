@@ -1,0 +1,23 @@
+body
+{
+    background-color: blueviolet;
+    background-size: 50%;
+}
+
+
+select,
+textarea,
+input
+{
+    display: block;
+}
+
+[type="radio"]
+{
+    display: inline;
+}
+
+button
+{
+    background-color: lightgreen;
+}

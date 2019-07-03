@@ -1,0 +1,28 @@
+.par-first
+{
+    background-color: skyblue;
+}
+
+.par-second
+{
+    background-color: indianred;
+}
+
+.inline
+{
+    display: inline;
+}
+
+ul
+{
+    font-size:0;
+}
+
+/* Nawigacja */
+.inline-block-item
+{
+    display: inline-block;
+    padding: 15px;
+    background-color: violet;
+    font-size: initial;
+}

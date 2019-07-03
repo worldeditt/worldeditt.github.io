@@ -1,0 +1,64 @@
+form
+{
+    background-color: #213b50;
+    width: 50%;
+    color: white;
+    padding: 25px;
+}
+
+select,
+textarea,
+input
+{
+    background-color: #2b4a64;
+    color: white;
+    border: 1px solid #2b4a64;
+    height: 25px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"]
+{
+    height: auto;
+    width: auto;
+}
+
+select:focus,
+textarea:focus,
+input:focus
+{
+    background-color: #2b4a64;
+    border: 1px solid #2b4a64;
+}
+
+label
+{
+    display: block;
+}
+
+/* Wszystkie słowa zawierające ciąg znaków "male" */
+label[for="agreement"],
+label[for*="male"]
+{
+    display: inline;
+}
+
+
+input[type="submit"]
+{
+    background-color: #1ac056;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    height: initial; 
+    width: initial;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover
+{
+    background-color: #46e881;
+}

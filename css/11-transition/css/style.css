@@ -1,0 +1,17 @@
+.box
+{
+    height: 200px;
+    background-color: blue;
+    /* domyślnie wszystkie więc nie trzeba podawać wartości */
+    transition-property: background-color; 
+    transition-duration: 2.5s;
+    /* domyślnie liner */
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    /* można zrobić transition: 0.4 */
+}
+
+.box:hover
+{
+    background-color: pink;
+}
